@@ -1,5 +1,5 @@
 web:
-  build: .
+  image: dariusbakunas/nginx
   ports:
    - "8080:80"
   volumes:
